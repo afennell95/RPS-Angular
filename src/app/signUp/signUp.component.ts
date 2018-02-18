@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 
 export class SignUpComponent {
-    pageTitle: string = 'Sign Up Page';
+    pageTitle: string = 'Sign Up';
 
     constructor(private _route: ActivatedRoute,
         private _router: Router) {
