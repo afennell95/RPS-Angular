@@ -1,0 +1,14 @@
+h1 {
+    color: rgb(0, 0, 160);
+}
+.optionContainer {
+    background-color: rgb(168, 214, 252);
+    color: rgb(0, 0, 192);
+    width: 300px;
+    height: 70px;
+    border: 3px solid rgb(0, 0, 192);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5px;
+}

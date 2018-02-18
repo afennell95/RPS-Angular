@@ -1,0 +1,22 @@
+<div style="text-align:center">
+        <h1>
+          {{title}}
+        </h1>
+        </div>
+        <br>
+        <div class='container'>
+          <div class='row'>
+            <div class='optionContainer'>
+                <h3><a [routerLink]="['/signIn']">Sign In</a></h3>
+            </div>
+            <br>
+            <div class='optionContainer'>
+                <h3><a>Play as Guest</a></h3>
+            </div>
+            <br>
+            <div class='optionContainer'>
+                <h3><a [routerLink]="['/signUp']">Sign Up</a></h3>
+            </div>
+          </div>
+          <router-outlet></router-outlet>
+      </div>
